@@ -1,0 +1,34 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>one</servlet-name>
+        <servlet-class>com.txt.one</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>one</servlet-name>
+        <url-pattern>/one</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>two</servlet-name>
+        <servlet-class>com.txt.two</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>two</servlet-name>
+        <url-pattern>/two</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>three</servlet-name>
+        <servlet-class>com.txt.three</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>three</servlet-name>
+        <url-pattern>/three</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
